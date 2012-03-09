@@ -1,3 +1,7 @@
+Working "solutions" for Lab 2 and Lab 3 from the DevOps for Python: Doing More With Less at PyCon 2012.
+
+Props to @coderanger for a great tutorial.
+
 **NOTICE**
 
 I removed the .chef dir due to these files being specific to your environment. You should use the knife.rb and *.pem
