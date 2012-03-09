@@ -18,21 +18,25 @@ The only other tweak to the original code is the addition of the
 cookbook to the base role's runlist.
 
 ::
+
     run_list "recipe[git]", "recipe[build-essential]", "recipe[apache2]"
 
 After we do this, the role needs to be updated.
 
 ::
+
     knife role from file base.rb
 
 Now if you run
 
 ::
+
     knife role show base
 
 you should see something like:
 
 ::
+
     chef_type:            role
     default_attributes:
     description:          Simple base setup
