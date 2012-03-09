@@ -1,0 +1,3 @@
+Fabric==1.4.0
+#-e git+git://github.com/coderanger/pychef.git#egg=pychef
+-e git+git@github.com:cshoe/pychef.git#egg=pychef
